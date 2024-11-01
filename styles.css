@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url("2-Pondok-Pesantren-Daarut-Tauhiid-Bandung-1024x695.webp");
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.program-section {
+    padding: 20px 0;
+    background: #f4f4f4;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.program {
+    background: #111184;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #737373;
+    color: #fff;
+}
+.li-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+
+    .programs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .cta-button {
+        padding: 6px 12px;
+    }
+
+    .program {
+        margin: 5px 0;
+    }
+}
